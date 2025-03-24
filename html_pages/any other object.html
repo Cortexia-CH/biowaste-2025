@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Card Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Any other object</h1>
+
+  For other object, you will have to describe 5 features using checkboxes:
+  <ul>
+    <li><a href="#shape">The shape</a></li>
+      <ul>
+        <li><a href="#bag">Bag</a></li>
+        <li><a href="#shape">Crumpled foil</a></li>
+        <li><a href="#sheet">Sheet</a></li>
+        <li><a href="#box">Box</a></li>
+        <li><a href="#trays_containers">Tray / container</a></li>
+        <li><a href="#cup_shaped_cylinder">Cup shaped / cylinder</a></li>
+        <li><a href="#lid_cap_disc">Lid / cap / disk</a></li>
+        <li><a href="#other_shape">Other / unsure</a></li>
+      </ul>
+    <li><a href="#color">The color</a></li>
+      <ul>
+        <li><a href="#white_ish">White-ish</a></li>
+        <li><a href="#black_ish">Black-ish</a></li>
+        <li><a href="#translucid">Translucid</a></li>
+        <li><a href="#colored">Colored</a></li>
+      </ul>
+    <li><a href="#opacity">The opacity</a></li>
+      <ul>
+        <li><a href="#transparent_low_opacity">Transparent / low opacity</a></li>
+        <li><a href="#opaque">Opaque</a></li>
+      </ul>
+    <li><a href="#design">The design</a></li>
+      <ul>
+        <li><a href="#pattern_design">With a pattern / design</a></li>
+        <li><a href="#text_bar_code">With text / barcode</a></li>
+        <li><a href="#nothing_uni">Solid (plain) color</a></li>
+      </ul>
+    <li><a href="#material">The material</a></li>
+      <ul>
+        <li>Wood</li>
+        <li>Glass</li>
+        <li>Plastic</li>
+        <li>Metal</li>
+        <li>Paper / cardboard</li>
+        <li>Ceramic / clay</li>
+        <li>Fabric</li>
+        <li>Other material / unsure</li>
+      </ul>
+  </ul>
+  <h1 id="shape">Shapes</h1>
+  <div class="card">
+    <h2 class="card-title" id="bag">Bag</h2>
+    <div class="image-text-container">
+      <div class="card-content">
+        <p>Bags have a “filled” aspect, round, they clearly contains other waste (garbage bags, shopping bags…)</br>
+          Crumpled plastic bags, partially visible, partially visible, should be in <b>crumpled foil</b> - 
+          please see examples in the corresponding section.
+        </p>
+      </div>
+    </div>
+    <h3 style="text-align: center;">Examples</h3>
+    <img src="assets/bags_3.png" alt="Big Image" class="big-image">
+    <img src="assets/bags_4.png" alt="Big Image" class="big-image">
+  </div>
+  </br>
+<div class="card">
+  <h2 class="card-title" id="crumpled_foil">Crumpled foil</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>The emphasis is on <b>crumpled</b>. Any crumpled foil or sheet, as well as torn plastic or foil (but <b>not</b> the torn compostable, which has its own label).</br>
+        ✅ Crumpled plastic bags are crumpled foil as well!</br>
+        ❌ Foil or sheet that are not crumpled go in the "sheet" category.
+      </p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/crumpled_foil_1.png" alt="Big Image" class="big-image">
+  <img src="assets/crumpled_foil_3.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="card-title" id="sheet">Sheet</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>Flat objects with sharp edges, semi-rigid aspect, plane, no volume </br>
+      Includes for example sheets of paper (as long as not crumpled) or flat pieces of plastic.</br>
+      ❌ Flat disks go in "lid / cap / disk"</br>
+      ❌ Crumpled foil (even crumpled paper) go in "crumpled foil"
+      </p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/sheet_2.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="card-title" id="box">Box</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>3D boxes and cartons. Includes post boxes, Tetra Pak, trasnport crates etc...</br>
+        ❌ Flatten boxes go in "sheet"!</br>
+        Please ignore the colors around the examples below.
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/box_1_1.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="card-title" id="trays_containers">Trays and containers</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>Trays of all shapes, material and colors. Can be rectangular or round, usually used for food.</br>
+        ❌ Don't mistake with box! See examples below...</br>
+        Please ignore the colors around the examples below.
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/box_tray_1.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="card-title" id="cup_shaped_cylinder">Cup shaped / cylinder</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>Any cup shaped or cylindric object. Includes plastic cups, fast food cups, coffee cups, wooden cylindric boxes, etc...</br>
+        ❌ If the object is obviously a food tray, please use "trays and containers" which is more specific.</br>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/cylinders.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="card-title" id="lid_cap_disc">Lid / cap / disk</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>Any circular flat object. Includes cup lids, soda/beer caps (caspules) or any flat disk.</br>
+        Please ignore the colors around the examples below.
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/lids.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="card-title" id="lid_cap_disc">Lid / cap / disk</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>Any circular flat object. Includes cup lids, soda/beer caps (caspules) or any flat disk.</br>
+        Please ignore the colors around the examples below.</p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/lids.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="card-title" id="other_shape">Other / unsure</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>If none of the categories fit, use this "other" category. If you're not sure, please also use this category.</br>
+      </p>
+    </div>
+  </div>
+</div>
+</br>
+<h1 id="color">Colors</h1>
+<div class="card">
+  <h2 class="blue-card-title" id="white_ish">White-ish</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>White or particularly light color. If most of the object is white, please use this category.</p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/whitish.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="blue-card-title" id="black_ish">Black-ish</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>Black or particularly dark color. If most of the object is black, please use this category.</p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/blackish.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="blue-card-title" id="colored">Colored</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>Any color(s) that are not black or white, multicolor.</br>
+        ❌ If most of the object is white or black, please use the corresponding category.</p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/colored.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="blue-card-title" id="translucid">Translucid</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>Completely transparent / see through matter (like glass, transparent plastics), where a color is not identifiable.</p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/transparent.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<h1 id="opacity">Opacity</h1>
+<div class="card">
+  <h2 class="red-card-title" id="transparent_low_opacity">Transparent / low opacity</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>The object is see-through, sheer, revealing what is behind it. Even if the content behind cannot be clearly identified, it is still considered transparent if its presence can be guessed.</br>
+        ✅ <i>Slighly</i> see-though is still in this category.
+      </p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/opacity_3.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="red-card-title" id="opaque">Opaque</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>Opaque, no transparency, no way of seeing anything through.</p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/opacity_4.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<h1 id="design">Design</h1>
+<div class="card">
+  <h2 class="green-card-title" id="pattern_design">Pattern / design</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>The object has a design, a logo, a textured pattern, etc...</p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/design-pattern.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="green-card-title" id="text_bar_code">Text / bar code</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>The object shows some text or a bar code.</p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/text_bar_code.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<div class="card">
+  <h2 class="green-card-title" id="nothing_uni">Solid (plain) color</h2>
+  <div class="image-text-container">
+    <div class="card-content">
+      <p>The object has only one color.</p>
+    </div>
+  </div>
+  <h3 style="text-align: center;">Examples</h3>
+  <img src="assets/none_uni.png" alt="Big Image" class="big-image">
+</div>
+</br>
+<h1 id="material">Material</h1>
+<div class="card">
+  <h2 class="purple-card-title" id="plastic">Material</h2>
+  <p>You will have to choose the material from the following list:</p>
+  <ul>
+    <li>Wood</li>
+    <li>Glass</li>
+    <li>Plastic</li>
+    <li>Metal</li>
+    <li>Paper / cardboard</li>
+    <li>Ceramic / clay</li>
+    <li>Fabric</li>
+  </ul>
+  If you can't find a fitting material or you're hesitating on the category, please use the
+  "Other material / unsure" category.
+</div>
+</br>
+
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+.card {
+  width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #ffc469;
+  margin: 0;
+}
+
+.blue-card-title {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #2277cc;
+  margin: 0;
+}
+
+.green-card-title {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #00bb99;
+  margin: 0;
+}
+
+.red-card-title {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #ff0044;
+  margin: 0;
+}
+
+.purple-card-title {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #8000ff;
+  margin: 0;
+}
+
+
+.image-text-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image {
+  width: 40%;
+  height: auto;
+}
+
+.card-content {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.card-content p {
+  margin: 0;
+}
+
+.small-card-content {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.big-image {
+  width: 100%;
+  height: auto;
+}
